@@ -1,6 +1,7 @@
 import axios from "axios";
+import { Baseurl } from "../BaseUrl";
 const AxiosInstanceNoToken = axios.create({
-  baseURL: "http://localhost:8080/api/",
+  baseURL: `${Baseurl}/api/`,
   timeout: 20000,
   headers: {
     "Content-Type": "application/json",
