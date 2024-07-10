@@ -2,7 +2,8 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="footer_main">
-      <h1>This is a A ecommerce website</h1>
+      <h3>&copy; 2024 Copyrigth:Tushar Shivaji Mulik  || 8080759612</h3>
     </div>
   );
 }
+ 
