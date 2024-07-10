@@ -29,7 +29,7 @@
   overflow-y: auto;
 }
 .header_main {
-text-align: center;
+  text-align: center;
 }
 .heading_title {
   color: var(--heading_title) !important;
@@ -275,8 +275,8 @@ text-align: center;
   height: 50%;
   margin: auto;
 }
-.AboutUsBaner{
-  background-image: url('./Images/aboutusbanner.jpg');  
+.AboutUsBaner {
+  background-image: url("./Images/aboutusbanner.jpg");
   background-position: center;
   width: 100%;
   /* height: 300px; */
@@ -288,7 +288,7 @@ text-align: center;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  font-size: 25px;  
+  font-size: 25px;
 }
 /* Media query for small screens (phones) */
 @media only screen and (max-width: 650px) {
@@ -302,9 +302,8 @@ text-align: center;
     width: 75%;
   }
 
-  .AdminDashbordDetails{
+  .AdminDashbordDetails {
     align-items: center;
-   
   }
 }
 @media only screen and (max-width: 900px) {
@@ -411,10 +410,19 @@ text-align: center;
     width: 160px;
     height: 160px;
   }
+  .singlepro_imagetag{
+    height: 300px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .product_card {
     width: 90%;
+  }
+  .Login_form_main {
+    width: 90%;
+  }
+  .footer_main h3 {
+    font-size: 16px;
   }
   .filter_main {
     width: 30%;
@@ -431,12 +439,17 @@ text-align: center;
   .singlepromain {
     flex-direction: column;
   }
-
-  .AdminDashbordDetails{
+  .serchcontroll {
+    flex-direction: column;
+  }
+  .AdminDashbordDetails {
     width: 48%;
   }
-  .AdminDashbordProfile{
+  .AdminDashbordProfile {
     height: 120px;
     padding-top: 5px;
+  }
+  .singlepro_main{
+    padding: 5px 0px;
   }
 }
